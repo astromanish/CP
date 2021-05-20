@@ -1,4 +1,3 @@
-
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -10,8 +9,8 @@ using namespace std;
 #define all(v) v.begin(), v.end()
 #define endl "\n"
 
-#define ff(a, b, c) for (int a = b; a <= c; a++)
-#define fb(a, b, c) for (int a = b; a >= c; a--)
+#define ff(a, b, c) for (int a = b; a < c; a++)
+#define fb(a, b, c) for (int a = b; a > c; a--)
 
 #define MOD 1e9 + 7
 
@@ -21,7 +20,7 @@ int main()
     cin >> t;
     int n;
     int k;
-    int m, n;
+    int m;
     int i, j;
     while (t--)
     {
