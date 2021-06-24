@@ -11,14 +11,16 @@ using namespace std;
 
 #define ff(a, b, c) for (int a = b; a < c; a++)
 
-
 signed main()
 {
-    int t;
-    cin >> t;
-    while (t--)
+    int n;
+    cin>>n;
+    int val;
+    vector<int> temp;
+    for(int i=n;i>=1;i--)
     {
-        
+        cin>>val;
+        temp.push_back(val);
     }
     return 0;
 }

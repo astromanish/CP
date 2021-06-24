@@ -1,0 +1,1 @@
+{"name":"Local: bracket-balance","url":"/home/astromanish/Desktop/CP/bracket-balance.cpp","tests":[{"id":1624354682011,"input":"()(){}","output":"YES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/astromanish/Desktop/CP/bracket-balance.cpp","group":"local","local":true}

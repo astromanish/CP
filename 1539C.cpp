@@ -3,8 +3,6 @@
 using namespace std;
 
 #define int long long
-#define vi vector<int> 
-#define vl vector<long long> 
 
 #define all(v) v.begin(), v.end()
 #define endl "\n"
@@ -14,11 +12,9 @@ using namespace std;
 
 signed main()
 {
-    int t;
-    cin >> t;
-    while (t--)
-    {
-        
-    }
-    return 0;
+    int arr[] = {9, 12, 2, 11, 2, 2, 10, 9, 12, 10, 9, 11, 2};
+    int x = arr[0];
+    for (int i = 1; i < 13; i++)
+        x = x ^ arr[i];
+    cout<<x;
 }

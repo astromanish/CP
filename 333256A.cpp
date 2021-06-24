@@ -18,7 +18,23 @@ signed main()
     cin >> t;
     while (t--)
     {
-        
+        int n;
+        cin>>n;
+        int cnt=0;
+        int l;
+        cin>>l;
+        int val;
+        ff(i,1,n)
+        {
+            cin>>val;
+            if(val<l)
+                cnt++;
+            l=val;
+        }
+        if(cnt%2==0)
+            cout<<cnt/2;
+        else
+            cout<<cnt/2+1;    
     }
     return 0;
 }

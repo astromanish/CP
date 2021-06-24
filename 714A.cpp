@@ -14,11 +14,19 @@ using namespace std;
 
 signed main()
 {
-    int t;
-    cin >> t;
-    while (t--)
+    int a,b,c,d,k;
+    cin>>a>>b>>c>>d>>k;
+    int l = max(a,c);
+    int r = min(b,d);
+    if(l<=r)
     {
-        
+        if(k>=l && k<=r)
+            cout<<r-l;
+        else
+            cout<<r-l+1;
+
     }
+    else
+        cout<<0;
     return 0;
 }
